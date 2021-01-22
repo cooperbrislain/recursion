@@ -2,7 +2,7 @@ const headline = "Recursion"
 const bottomText = "You gotta know when to quit."
 
 window.onload = () => {
-    document.getElementById('container').innerHTML = recurse_poster(80, 1024, 25);
+    document.getElementById('container').innerHTML = recurse_poster(75, 1024, 5);
 }
 
 function recurse_poster(factor=80, x=1024, small=25) {

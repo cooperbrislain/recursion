@@ -35,14 +35,14 @@ body {
 #container>.poster h3{
     color: var(--main-color);
     font-size: 300%;
-    margin: 0;
-    font-family: "Times New Roman", serif;
-    font-weight: 600;
+    font-family: "Baskerville Regular", serif;
+    font-weight: lighter;
+    margin: 15px 0 0;
 }
 
 #container>.poster h5 {
-    font-size: 100%;
-    margin: 0;
+    font-size: 105%;
+    margin: 5px 0 0;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: lighter;
