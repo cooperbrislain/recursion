@@ -1,0 +1,16 @@
+{
+  "name": "@spaceboycoop/recursion",
+  "version": "1.0.0",
+  "description": "draws a recursive motivational poster",
+  "main": "server.js",
+  "scripts": {
+    "test": "http_server ."
+  },
+  "keywords": [
+    "recursion",
+    "poster",
+    "motivational"
+  ],
+  "author": "Cooper Brislain",
+  "license": "ISC"
+}
