@@ -1,16 +1,20 @@
 {
-  "name": "@cooperbrislain/recursion",
-  "version": "1.0.0",
-  "description": "draws a recursive motivational poster",
-  "main": "index.html",
-  "scripts": {
-    "test": "http_server ."
-  },
-  "keywords": [
-    "recursion",
-    "poster",
-    "motivational"
-  ],
-  "author": "Cooper Brislain",
-  "license": "ISC"
+    "name": "@cooperbrislain/recursion",
+    "version": "1.0.0",
+    "description": "draws a recursive motivational poster",
+    "main": "index.html",
+    "scripts": {
+        "test": "http_server .",
+        "start": "http_server ."
+    },
+    "keywords": [
+        "recursion",
+        "poster",
+        "motivational"
+    ],
+    "author": "Cooper Brislain",
+    "license": "ISC",
+    "dependencies": {
+        "http_server": "^1.0.12"
+    }
 }
