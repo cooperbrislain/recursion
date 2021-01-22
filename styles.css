@@ -5,7 +5,6 @@ body {
 
 #container {
     display: flex;
-    border: 1px solid white;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -17,13 +16,14 @@ body {
     border: 1px solid white;
     margin: auto auto;
     text-align: center;
+    height: 768px;
+    width: 1024px;
 }
 
 .inner {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100%;
     overflow: hidden;
 }
 
