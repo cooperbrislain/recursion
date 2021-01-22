@@ -1,3 +1,6 @@
+const headline = "Recursion"
+const bottomText = "You gotta know when to quit."
+
 window.onload = () => {
     document.getElementById('container').innerHTML = recurse_poster(80, 1024, 25);
 }
@@ -11,8 +14,8 @@ function recurse_poster(factor=80, x=1024, small=25) {
             <div class="inner">
                 ${inner}
             </div>
-            <h3>Recursion</h3>
-            <h5>You gotta know when to quit.</h5>
+            <h3>${headline.toUpperCase()}</h3>
+            <h5>${bottomText}</h5>
         </div>
     `;
 }
