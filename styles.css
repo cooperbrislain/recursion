@@ -1,11 +1,11 @@
 :root {
-    --accent-color: #C93;
+    --accent-color: #DA3;
     --main-color: white;
 }
 
 body {
     background-color: black;
-    color: white;
+    color: var(--main-color);
 }
 
 #container {
@@ -18,8 +18,7 @@ body {
 }
 
 .poster {
-    border: 1px solid var(--accent-color);
-    margin: auto auto;
+    border: 1.5pt solid var(--accent-color);
     text-align: center;
     height: 768px;
     width: 1024px;
@@ -30,19 +29,18 @@ body {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    margin-top: -30px;
 }
 
 #container>.poster h3 {
     color: var(--accent-color);
-    font-size: 340%;
+    font-size: 450%;
     font-family: "Baskerville Regular", serif;
     font-weight: lighter;
-    margin: 10px 0 0;
-    vertical-align: text-top;
+    margin: 25px 0 0;
 }
 
 #container>.poster h3>span {
-    text-decoration-line: none;
     display: inline-block;
     font-size: 120%;
 }
@@ -57,7 +55,7 @@ body {
 #container>.poster h5 {
     font-size: 105%;
     margin: 0;
-    color: white;
+    color: var(--main-color);
     font-family: "Montserrat", sans-serif;
     font-weight: lighter;
 }
