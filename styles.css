@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#container {
+    display: flex;
+    border: 1px solid white;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.poster {
+    border: 1px solid white;
+    margin: auto auto;
+    text-align: center;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+#container>.poster h3{
+    font-size: 250%;
+    margin: 0;
+}
+
+#container>.poster h5 {
+    font-size: 150%;
+    margin: 0;
+}
