@@ -1,8 +1,8 @@
 {
-  "name": "@spaceboycoop/recursion",
+  "name": "@cooperbrislain/recursion",
   "version": "1.0.0",
   "description": "draws a recursive motivational poster",
-  "main": "server.js",
+  "main": "index.html",
   "scripts": {
     "test": "http_server ."
   },
